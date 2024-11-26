@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Sign up Form</title>
+</head>
+<body>
+  <div id="container">
+    <div id="title_section">
+      <div>
+        <div id="logo">
+          <img src="./images/odin_logo.png" alt="odin_logo">
+          <h1>ODIN</h1>
+        </div>
+      </div>
+    </div>
+    <div id="content_section">
+      <div id="top_content">
+        <div id="content_1">
+          This is not a real online service! 
+          You know you need something like this in your life 
+          to help you realize your deepest dreams.
+          <br>
+          Sign up now to get started.
+        </div>
+        <div id="content_2">
+          You know you want to.
+        </div>
+      </div>
+      <form id="form_content">
+        <fieldset>
+          <legend>Let's do this!</legend>
+
+          <div id="name_box">
+            <div id="first_name">
+              <label for="first_name_input">first name</label>
+              <input type="text" id="first_name_input">
+            </div>
+
+            <div id="last_name">
+              <label for="last_name_input">last name</label>
+              <input type="text" id="last_name_input">
+            </div>
+  
+          </div>
+
+          <div id="mail_box">
+            <div id="email">
+              <label for="email_input">email</label>
+              <input type="email" id="email_input">
+            </div>
+
+            <div id="phone">
+              <label for="phone_input">phone number</label>
+              <input type="tel" id="phone_input">
+            </div>
+          </div>
+
+          <div id="password_box">
+            <div id="password">
+              <label for="password_input">password</label>
+              <input type="password" id="password_input" minlength="8" maxlength="16">
+            </div>
+
+            <div id="confirm_password">
+              <label for="confirm_password_input">confirm password</label>
+              <input type="password" id="confirm_password_input" minlength="8" maxlength="16">
+            </div>
+          </div>
+
+        </fieldset>
+      </form>
+      <div id="bottom_content">
+        <div id="button_box">
+          <button type="submit" id="create_button">Create Account</button>
+        </div>
+        <div id="login_box">
+          <p>Already have an account? <a id="log_in">Log in</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
